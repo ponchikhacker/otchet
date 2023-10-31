@@ -25,6 +25,8 @@ int main {
 	return 0; 
 }	
 ```
+### Блок-схема
+![diagramm1](diagram.png)
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
 AngularJS-powered HTML5 Markdown editor.
