@@ -1,8 +1,8 @@
 # Отчёт
 ## Лабораторная работа №6 Вариант 1
-### Задание 1
 
-[![task1](1.jpeg)
+
+![task1](1.jpeg)
 
 [![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
 
