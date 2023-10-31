@@ -153,7 +153,7 @@ int main()
 }
 ```
 ### Блок-схема
-![diagramm4](diagram4.png)
+![diagram4](diagram4.png)
 
 ![task5](5.jpeg)
 
