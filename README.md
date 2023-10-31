@@ -3,7 +3,8 @@
 
 
 ![task1](1.jpeg)
-
+### Блок-схема
+![diagramm1](diagram1.png)
 ### Код
 ```cpp
 #include <cstdlib>
@@ -25,10 +26,10 @@ int main {
 	return 0; 
 }	
 ```
-### Блок-схема
-![diagramm1](diagram1.png)
-
+![result1](result1.png)
 ![task2](2.jpeg)
+### Блок-схема
+![diagramm2](diagram2.png)
 
 ### Код
 ```cpp
@@ -75,12 +76,10 @@ int main()
 	return 0; 
 }	
 ```
-### Блок-схема
-![diagramm2](diagram2.png)
-
-
+![result2](result2.png)
 ![task3](3.jpeg)
-
+### Блок-схема
+![diagramm3](diagram3.png)
 ### Код
 ```cpp
 #include <cstdlib>
@@ -103,12 +102,11 @@ int main()
 	return 0; 
 }
 ```
-### Блок-схема
-![diagramm3](diagram3.png)
-
-
-
+![result3](result3.png)
 ![task4](4.jpeg)
+
+### Блок-схема
+![diagram4](diagram4.png)
 
 ### Код
 ```cpp
@@ -152,11 +150,10 @@ int main()
 	return 0; 
 }
 ```
-### Блок-схема
-![diagram4](diagram4.png)
-
+![result4](result4.png)
 ![task5](5.jpeg)
-
+### Блок-схема
+![diagramm5](diagram5.png)
 ### Код
 ```cpp
 #include <cstdlib>
@@ -196,5 +193,4 @@ int main()
 	return 0;
 }
 ```
-### Блок-схема
-![diagramm5](diagram5.png)
+![result5](result5.png)
