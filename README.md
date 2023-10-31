@@ -4,7 +4,7 @@
 
 ![task1](1.jpeg)
 
-###Код
+### Код
 ```cpp
 #include <cstdlib>
 #include <iostream>
