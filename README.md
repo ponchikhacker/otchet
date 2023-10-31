@@ -27,6 +27,7 @@ int main {
 }	
 ```
 ![result1](result1.png)
+
 ![task2](2.jpeg)
 ### Блок-схема
 ![diagramm2](diagram2.png)
@@ -77,6 +78,7 @@ int main()
 }	
 ```
 ![result2](result2.png)
+
 ![task3](3.jpeg)
 ### Блок-схема
 ![diagramm3](diagram3.png)
@@ -103,6 +105,7 @@ int main()
 }
 ```
 ![result3](result3.png)
+
 ![task4](4.jpeg)
 
 ### Блок-схема
@@ -151,6 +154,7 @@ int main()
 }
 ```
 ![result4](result4.png)
+
 ![task5](5.jpeg)
 ### Блок-схема
 ![diagramm5](diagram5.png)
