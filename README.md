@@ -4,7 +4,27 @@
 
 ![task1](1.jpeg)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
+###Код
+```cpp
+#include <cstdlib>
+#include <iostream>
+#include <math.h>
+#include <sstream>
+#include <string>
+using namespace std;
+int main {
+	int count=0, a=13;
+	while(count!=100)
+	{int j=0;
+	int c = a;
+	for (int i =int(log10(c)+1);i>=0;i--){j+=(c%10)*pow(10,i-1);c/=10;}
+	if (a==j){cout<<a<<endl;count+=1;}
+	a+=1;
+	}
+	//cout<<count;
+	return 0; 
+}	
+```
 
 Dillinger is a cloud-enabled, mobile-ready, offline-storage compatible,
 AngularJS-powered HTML5 Markdown editor.
