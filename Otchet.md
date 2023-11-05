@@ -81,7 +81,7 @@ int main()
 
 ![task3](3.jpeg)
 ### Блок-схема
-![diagramm3](diagram3.png)
+![diagram3](diagram3.png)
 ### Код
 ```cpp
 #include <cstdlib>
