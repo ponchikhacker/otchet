@@ -75,8 +75,6 @@ int main()
 	return 0; 
 }	
 ```
-![result1](result1.png)
-
 ![task3](3.jpeg)
 ### Блок-схема
 ![diagram3](diagram3.png)
