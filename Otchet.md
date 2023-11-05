@@ -149,7 +149,7 @@ int main()
 
 ![task5](5.jpeg)
 ### Блок-схема
-![diagramm45](diagram45.png)
+![diagramm5](diagram5.png)
 ### Код
 ```cpp
 #include <cstdlib>
@@ -185,4 +185,4 @@ int main()
 	return 0;
 }
 ```
-![result55](result55.png)
+![result5](result5.png)
