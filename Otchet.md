@@ -158,20 +158,11 @@ int main()
 #include <sstream>
 #include <string>
 using namespace std;
-long double fact(int N);
-long double fact(int N)
-{
-    if(N < 0)
-        return 0; 
-    if (N == 0)
-        return 1;
-    else
-        return N * fact(N - 1);
-}
+
 int main()
 {
 	int n=0;
-	float sum=0,x=0;
+	float x=0;
 	bool flag=true;
 	cout<<"Введите число: ";cin>>n;
 	while(flag)
@@ -180,12 +171,17 @@ int main()
 		if(x>-1 and x<1){flag=false;}
 		else{cout<<"ошибка!"<<endl;}
 		}
-	for(int i=0;i<n;i++)
+	int minus=1,count=0;
+	float repeater=1,sum=0;
+	while(count<=n)
 	{
-		if (i%2==0){sum+=(pow(x,(2*i))/fact(2*i));}
-		else {sum+=(-1)*(pow(x,(2*i))/fact(2*i));}
+		if (count==0){repeater=1;}
+		else{repeater*=(x*x)/((2*count)*(2*count-1));}
+		sum+=minus*repeater;//cout<<"Сумма1 "<<sum<<"\t"<<" РЕПИТЕР "<<repeater<<endl;
+		minus*=(-1);count+=1;
 		}
-	cout<<"Сумма ряда: "<<sum;
+	cout<<"Значение суммы: "<<'\t';
+	cout<<sum<<endl;
 	return 0;
 }
 ```
