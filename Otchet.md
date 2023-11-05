@@ -65,14 +65,12 @@ void reverse_function(int b)
 int main()
 {
 	int a=0,count=13;
-	cout<<"Введите число: ";cin>>a;
 	while (count!=0)
-	{	
+	{	cout<<"Введите число: ";cin>>a;
 		//cout<<prime(a)<<"\t"<<a<<endl;
 		//cout<<count<<endl;
 		if (prime(a)){count-=1;}
 		reverse_function(a);//cout<<a<<endl;
-		a+=1;
 		}
 	return 0; 
 }	
