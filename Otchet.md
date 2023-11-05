@@ -108,7 +108,7 @@ int main()
 ![task4](4.jpeg)
 
 ### Блок-схема
-![diagram43](diagram43.png)
+![diagram4](diagram4.png)
 
 ### Код
 ```cpp
@@ -145,7 +145,7 @@ int main()
 	return 0; 
 }
 ```
-![result43](result43.png)
+![result4](result4.png)
 
 ![task5](5.jpeg)
 ### Блок-схема
