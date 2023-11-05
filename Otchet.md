@@ -4,7 +4,7 @@
 
 ![task1](1.jpeg)
 ### Блок-схема
-![diagramm1](diagram1.png)
+![diagramm](diagram.png)
 ### Код
 ```cpp
 #include <cstdlib>
@@ -30,7 +30,7 @@ int main {
 
 ![task2](2.jpeg)
 ### Блок-схема
-![diagram2](diagram2.png)
+![diagramm2](diagram2.jpeg)
 
 ### Код
 ```cpp
