@@ -75,7 +75,7 @@ int main()
 	return 0; 
 }	
 ```
-![result2](result2.png)
+![result1](result1.png)
 
 ![task3](3.jpeg)
 ### Блок-схема
