@@ -30,7 +30,7 @@ int main {
 
 ![task2](2.jpeg)
 ### Блок-схема
-![diagramm2](diagram2.png)
+![diagram2](diagram2.png)
 
 ### Код
 ```cpp
