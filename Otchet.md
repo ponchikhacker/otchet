@@ -118,30 +118,23 @@ int main()
 #include <sstream>
 #include <string>
 using namespace std;
-long double fact(int N);
-long double fact(int N)
-{
-    if(N < 0)
-        return 0; 
-    if (N == 0)
-        return 1;
-    else
-        return N * fact(N - 1);
-}
 int main()
 {
-	//int eps=0;
-	//cout<<"Введите число: ";cin>>eps;
-	int m=3;
-	for (float j=0;j<=1;j+=0.1)//j=(-1)*M_PI/2.;j<=M_PI/2.;j+=M_PI/6.)
+	float eps=0;
+	cout<<"Введите число eps: ";cin>>eps;
+	for (float j=0;j<=1;j+=0.1)
 	{
-		float sum=0;
+		int minus=(-1),i=0;
+		float repeater=1,sum=0;
+		bool flag=true;
 		cout<<"Значение суммы: "<<'\t';
-		for(int i=0;i<m;i++)//while(abs(pow(j,(2*i+1))/fact(2*i+1))<eps)
+		while(flag)
 		{
-			if (i%2==0){sum+=(pow(j,(2*i+1))/fact(2*i+1));}//cout<<(pow(j,(2*i+1))/fact(2*i+1))<<endl;}
-			else {sum+=(-1)*(pow(j,(2*i+1))/fact(2*i+1));}//cout<<(-1)*(pow(j,(2*i+1))/fact(2*i+1))<<endl;}
-			//cout<<(pow(j,(2*i+1))/fact(2*i+1))<<endl;
+			if (i==0){repeater*=j;}
+			else {repeater*=(j*j)/((2*i+1)*(2*i));}
+			minus*=(-1);i+=1;
+			sum+=minus*repeater;//cout<<"Сумма1 "<<sum<<"\t"<<(pow(j,2*i+1))<<" РЕПИТЕР "<<repeater<<endl;
+			if (fabs(minus*repeater)<eps) {flag=false;}
 			}
 		cout<<sum<<endl;
 		cout<<"Значение синуса: "<<'\t';
