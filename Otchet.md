@@ -75,6 +75,7 @@ int main()
 	return 0; 
 }	
 ```
+![result23](result23.png)
 ![task3](3.jpeg)
 ### Блок-схема
 ![diagram3](diagram3.png)
