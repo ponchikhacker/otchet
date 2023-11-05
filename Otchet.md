@@ -29,6 +29,7 @@ int main {
 ![result1](result1.png)
 
 ![task2](2.jpeg)
+
 ### Блок-схема
 ![diagramm2](diagram2.png)
 
